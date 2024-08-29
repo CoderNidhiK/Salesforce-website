@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    z-index: 100;
+    justify-content: space-around;
+}
+.text{
+    font-weight: bold;
+    color: darkblue;
+}
+.text:hover{
+    color: lightblue;
+}
+#logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    height: 80%; /* Adjust height to ensure it fits within the header */
+    object-fit: contain; /* Ensure the image maintains its aspect ratio */
+    margin: 0; /* Remove margin to align with header's height */
+    padding: 0; /* Remove padding */
+}
+
+#fakeheader{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+}
+#page1{
+    width: 100%;
+    height: 87%;
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(8, 8, 101);
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#strip u{
+    font-weight: lighter;
+    margin-left: 15px;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+}
+#box1 h1{
+    font-weight:600;
+    color:rgb(0, 0,80);
+    font-size: 50px;
+    margin: 30px 30px;
+}
+#box1 P{
+font-size: xx-large;
+margin: 10px;;
+font-weight: lighter;
+}
+#box1, #box2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    margin: 10px;
+}
+#box2{
+    background-color: black;
+}
+#heading{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0,0,130);
+}
+#heading h1{
+    font-weight: 600;
+}
+#btns{
+    display: flex;
+    
+}
+#btn1{
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color:white;
+    background-color: darkblue;
+}
+#btn1:hover{
+    background-color: lightblue;
+}
+#btn2:hover{
+    color:rgb(0, 67, 90);
+    background-color:lightblue;
+    border-color: rgb(0, 67, 90);
+}
+#btn2{ width: 22%;
+    margin: 10px;
+    padding: 10px 20px;
+    color:rgb(89,213,255);
+    border: 1px solid rgb(89,213,255);
+}
+#page2{
+    width: 100%;
+    height: 87%;
+    background-color: blueviolet;
+}
+#contactdetails:hover{
+    color: lightblue;
+}
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 50%;
+}
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50%;
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+}
+#try:hover{
+    background-color: #012d01;
+}
